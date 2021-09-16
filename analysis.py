@@ -13,4 +13,5 @@ df = pd.read_csv(
 df.plot.scatter(
     x="Mortality rate, infant (per 1,000 live births)",
     y="GDP per capita (constant 2010 US$)",
+    s=50,
 )
